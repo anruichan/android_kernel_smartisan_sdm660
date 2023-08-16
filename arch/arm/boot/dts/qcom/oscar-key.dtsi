@@ -48,9 +48,9 @@
 			debounce-interval = <15>;
 		};
 
-		/* Shortcuts */
-		shortcuts {
-			label = "shortcuts";
+		/* SMART */
+		smart {
+			label = "smart";
 			gpios = <&tlmm 44 0x1>;
 			linux,input-type = <1>;
 			linux,code = <0x246>;
